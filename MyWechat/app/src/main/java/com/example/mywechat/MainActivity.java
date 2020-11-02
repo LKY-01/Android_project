@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         imageButton4 = findViewById(R.id.imageButton4);
     }
 
-    private void hide(FragmentTransaction transaction){
+        private void hide(FragmentTransaction transaction){
         transaction.hide(mtab1);
         transaction.hide(mtab2);
         transaction.hide(mtab3);
@@ -95,7 +95,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View view) {
         resetImgs();
         switch (view.getId()){
-            case R.id.imageButton1:
+                case R.id.imageButton1:
                 setSelect(0);
                 break;
             case R.id.imageButton2:
@@ -116,7 +116,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     //让图片全部变灰
     private void resetImgs(){
         imageButton1.setImageResource (R.drawable.tab_weixin_normal);
-        imageButton2.setImageResource(R.drawable.tab_find_frd_normal) ;
+        imageButton2.setImageResource(R.drawable.tab_find_frd_normal);
         imageButton3.setImageResource(R.drawable.tab_address_normal);
         imageButton4.setImageResource(R.drawable.tab_settings_normal);
     }

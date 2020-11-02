@@ -3,6 +3,7 @@
     <string name="app_name2">朋友</string>
     <string name="app_name3">通讯录</string>
     <string name="app_name4">设置</string>
+    <string name="item">微信聊天名</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

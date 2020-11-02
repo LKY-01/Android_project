@@ -6,12 +6,11 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/id_content1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:text="这是微信界面"
         android:textSize="25sp" />
 </LinearLayout>
